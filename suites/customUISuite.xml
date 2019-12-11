@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="DummyHeads" verbose="1" >
+    <test name="Mini Reg" >
+        <classes>
+            <class name="com.ai.Test1" />
+            <class name="com.ai.Test2">
+                <methods>
+                    <include name="aTest1"/>
+                    <include name="aTest2"/>
+                    <include name="aTest3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
